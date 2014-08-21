@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ ==========================================================================
+
+ JSAP build file
+
+Author:
+ Martin Lamb
+
+Legal:
+ Copyright (c) 2002, Martin Lamb All rights reserved.
+
+==============================================================================
+ 
+
+--> 
+<project basedir="." default="test" name="testAntTask">
+
+	<property name="src" value="src"/>
+	<property name="build" value="build"/>
+	
+	<taskdef name="jsap" classname="com.martiansoftware.jsap.ant.JSAPAntTask" classpath="${build}"/>
+	
+	
+	<target name="test">
+	
+		<jsap srcdir="${src}" classname="com.martiansoftware.jsap.examples.ExampleAntJSAP">
+			
+			<!-- create a switch flagged by "v" or "verbose" -->
+			<switch id="verbose" shortflag="v" longflag="verbose"/>
+			
+			<!-- create a required flaggedoption looking for an integer, flagged by "n" (e.g. "-n 5") -->
+			<flaggedoption id="num" required="true" shortflag="n" stringparser="IntegerStringParser">
+				<default>5</default>
+			</flaggedoption>
+			
+			<!-- create an unflaggedoption that reads all of the unflagged arguments from the command line -->
+			<unflaggedoption id="files" greedy="true" />
+			
+			<!-- create a flaggedoption looking for a Date in "MM/DD/YY" format, flagged by "d"
+			     or "date", defaulting to Christmas, 2002. -->
+			<flaggedoption id="date" shortflag="d" longflag="date" stringparser="DateStringParser">
+				<property name="format" value="MM/DD/YYYY"/>
+				<default>12/25/2002</default>
+			</flaggedoption>
+				
+		</jsap>
+	
+	</target>
+
+</project>
