@@ -9,10 +9,10 @@
 
     <para>This document is current as of June 20, 2005. The most up-to-date
     copy of this document is available at <ulink
-    url="http://www.martiansoftware.com/jsap/doc/manual.html">http://www.martiansoftware.com/jsap/doc/index.html</ulink>.</para>
+    url="http://www.com.martiansoftware.com/jsap/doc/manual.html">http://www.com.martiansoftware.com/jsap/doc/index.html</ulink>.</para>
 
     <para>Copyright (c) 2004-2005, <ulink
-    url="http://www.martiansoftware.com/contact.html">Marty Lamb</ulink>. This
+    url="http://www.com.martiansoftware.com/contact.html">Marty Lamb</ulink>. This
     document is licensed under a <ulink
     url="http://creativecommons.org/licenses/by-sa/1.0/">Creative Commons
     License</ulink>.</para>
@@ -83,7 +83,7 @@
       when you request that parameter&#39;s value from your program.
       There&#39;s a pretty big (and growing) list of return types suppored by
       <classname>JSAP</classname>; you may want to <ulink
-      url="javadoc/com/martiansoftware/jsap/stringparsers/package-summary.html">skip
+      url="javadoc/com/com.martiansoftware/jsap/stringparsers/package-summary.html">skip
       right to the javadocs</ulink> and check it out.</para>
 
       <para><classname>JSAP</classname> provides not only for default values
@@ -323,7 +323,7 @@
 
       <screen>@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_2@@
 
-@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_2 -n 5@@</screen>
+          @@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_2 -n 5@@</screen>
 
       <para>So far, so good. Let&#39;s add a switch.</para>
     </sect1>
@@ -342,11 +342,11 @@
 
       <screen>@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_3 -n 2@@
 
-@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_3 -n 3 -v@@
+          @@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_3 -n 3 -v@@
 
-@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_3 --verbose@@
+          @@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_3 --verbose@@
 
-@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_3 -vn 2@@</screen>
+          @@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_3 -vn 2@@</screen>
 
       <para>That last one is the most interesting - note that we were able to
       combine multiple short flags (&#34;<command>v</command>&#34; and &#34;<command>n</command>&#34;).
@@ -373,9 +373,9 @@
 
       <screen>@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_4 -n 2 --verbose Bender Fry Leela@@
 
-@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_4 Kif -n 3@@
+          @@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_4 Kif -n 3@@
 
-@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_4 -v -n 2@@</screen>
+          @@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_4 -v -n 2@@</screen>
     </sect1>
 
     <sect1>
@@ -389,7 +389,7 @@
 
       <screen>@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_5 -n 2 -n 4@@
 
-@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_5 --nosuchflag@@</screen>
+          @@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_5 --nosuchflag@@</screen>
 
       <para>Note that the IDs of the &#34;count&#34; <classname>FlaggedOption</classname>
       and the &#34;name&#34; <classname>UnflaggedOption</classname> were used
@@ -408,7 +408,7 @@
 
       <screen>@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_6 -n 2 -n 4@@
 
-@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_6 --nosuchflag@@</screen>
+          @@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_6 --nosuchflag@@</screen>
 
       <para>In <classname>HelloWorld_3</classname> you learned how to add a
       <classname>Switch</classname> (verbose). Combine a -h / --help switch
@@ -427,7 +427,7 @@
 
       <screen>@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_7 -n 2 -n 4@@
 
-@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_7 --nosuchflag@@</screen>
+          @@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_7 --nosuchflag@@</screen>
     </sect1>
 
     <sect1>
@@ -440,12 +440,12 @@
 
       <screen>@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_8 -n 2 --verbose Zoidberg@@
 
-@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_8 --verbose:de Farnsworth@@
+          @@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_8 --verbose:de Farnsworth@@
 
-@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_8 -v:de,en Branigan@@
+          @@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_8 -v:de,en Branigan@@
 
-@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_8 Horrible_Gelatanous_Blob@@
-</screen>
+          @@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_8 Horrible_Gelatanous_Blob@@
+      </screen>
 
       <para></para>
     </sect1>
@@ -468,14 +468,14 @@
 
       <screen>@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_Simple -n 2 --verbose Zoidberg@@
 
-@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_Simple --verbose:de Farnsworth@@
+          @@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_Simple --verbose:de Farnsworth@@
 
-@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_Simple -v:de,en Branigan@@
+          @@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_Simple -v:de,en Branigan@@
 
-@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_Simple Horrible_Gelatanous_Blob@@
+          @@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_Simple Horrible_Gelatanous_Blob@@
 
-@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_Simple --help@@
-</screen>
+          @@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_Simple --help@@
+      </screen>
 
       <para></para>
     </sect1>
@@ -586,7 +586,7 @@
       <methodname>getColor()</methodname>, ...far too many to include here,
       including <classname>Iterator</classname>s and arrays for reading
       multivalue parameters. The <ulink
-      url="javadoc/com/martiansoftware/jsap/JSAPResult.html">javadocs</ulink>
+      url="javadoc/com/com.martiansoftware/jsap/JSAPResult.html">javadocs</ulink>
       are pretty useful for this class.</para>
     </sect1>
   </chapter>
@@ -726,7 +726,7 @@
     <para>Of course, you may want to read your own object types from the
     command line, or at least read a type that <classname>JSAP</classname>
     doesn&#39;t support out of the box. No problem—just extend
-    com.martiansoftware.jsap.StringParser. The only method you have to
+    StringParser. The only method you have to
     implement is:</para>
 
     <programlisting>public abstract Object parse(String arg) throws com.martiansoftware.jsap.ParseException;</programlisting>
@@ -889,12 +889,12 @@
 
     <screen>@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_9 -n 2 --verbose Zoidberg@@
 
-@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_9 --verbose:de Farnsworth@@
+        @@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_9 --verbose:de Farnsworth@@
 
-@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_9 -v:de,en Branigan@@
+        @@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_9 -v:de,en Branigan@@
 
-@@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_9 Horrible_Gelatanous_Blob@@
-</screen>
+        @@rundoc:java com.martiansoftware.jsap.examples.Manual_HelloWorld_9 Horrible_Gelatanous_Blob@@
+    </screen>
 
     <para></para>
   </chapter>
@@ -916,7 +916,7 @@
     class.</para></listitem></varlistentry><varlistentry><term>Sebastiano
     Vigna</term><listitem><para>Provided the vast majority of bug fixes, new
     features, and associated documentation bringing JSAP to version 2.0! See
-    the <ulink url="http://www.martiansoftware.com/jsap/changelog.html">v2.0
+    the <ulink url="http://www.com.martiansoftware.com/jsap/changelog.html">v2.0
     changelog</ulink>.</para></listitem></varlistentry></variablelist></para>
   </chapter>
 
@@ -924,6 +924,6 @@
     <title>Reporting Problems</title>
 
     <para>Please report any bugs and request new features via <ulink
-    url="http://jira.martiansoftware.com/browse/JSAP">http://jira.martiansoftware.com/browse/JSAP</ulink>.</para>
+    url="http://jira.com.martiansoftware.com/browse/JSAP">http://jira.com.martiansoftware.com/browse/JSAP</ulink>.</para>
   </chapter>
 </book>

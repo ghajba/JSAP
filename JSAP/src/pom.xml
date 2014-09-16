@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.martiansoftware</groupId>
+    <artifactId>JSAP</artifactId>
+    <version>3.0-SNAPSHOT</version>
+
+    <url>http://www.martiansoftware.com/jsap</url>
+
+    <developers>
+        <developer>
+            <id>Marty</id>
+            <name>Marty Lamb</name>
+            <organization>Martian Software Inc.</organization>
+            <organizationUrl>http:/martiansoftware.com</organizationUrl>
+            <roles>
+                <role>Architect</role>
+                <role>Developer</role>
+            </roles>
+        </developer>
+        <developer>
+            <id>GHajba</id>
+            <name>Gabor Laszlo Hajba</name>
+            <organization>Japy Szoftver Kft</organization>
+            <organizationUrl>http://japy.hu</organizationUrl>
+            <roles>
+                <role>Migration</role>
+                <role>Developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <dependencies>
+        <dependency>
+            <groupId>xstream</groupId>
+            <artifactId>xstream</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.ant</groupId>
+            <artifactId>ant</artifactId>
+            <version>1.9.4</version>
+        </dependency>
+    </dependencies>
+</project>

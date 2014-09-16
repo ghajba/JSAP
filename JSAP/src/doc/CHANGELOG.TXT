@@ -49,4 +49,4 @@ v2.0 (June 21, 2005)
    
  * Added XML support for JSAP configuration (experimental).
  
- * Brought JIRA bug tracker online at http://jira.martiansoftware.com.
+ * Brought JIRA bug tracker online at http://jira.com.martiansoftware.com.
